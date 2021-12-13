@@ -1,0 +1,30 @@
+﻿ToDo:
+	- add testMethodProject, - clear direction and incentivization (green chackmark)
+	- extract all links
+	- add CLI application
+	- create methods in class library and then use then in CLI application
+
+Goal:
+	A program that can run and crawl through an entire website and extract important data from it
+	Optimal for small buissness crawling to see what is in their sites
+
+Functionality:
+	- crawl through site (its links), not visit a link more than needed (once)
+	- extract emails
+	- extract specified words (sentance)
+	- extract phone #s
+	- extract all img links
+	- download all extracted img links
+	- option to download html pages and save to disk
+	- cool name (sharlot (the spider), swiper (from dora the explorer), Arachne (from greek myths and anime)
+	- standalone project, with icon
+
+Bounus Functionality!!!!!:
+	- pull all names of people from the site (first, last)
+	^^^can use a database to do this if time. Would be better than storing a file and using .contains
+	- send http requests to wiki api, return first paragraph (summary one) from the wiki search
+	^^^idk if this should just be a wikirip 2.0 (or git addition/update)
+
+Nameing Scheme:
+	I am using Pascal naming convension for classes and method names.
+	For all other objects I am using camelCase.
